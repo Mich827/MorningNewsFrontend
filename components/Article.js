@@ -42,7 +42,7 @@ function Article(props) {
       </div>
       <h4 style={{ textAlign: "right" }}>- {props.author}</h4>
       <div className={styles.divider}></div>
-      <img src={props.urlToImage} alt={props.title} width={600} height={314} />
+      <Image src={props.urlToImage} alt={props.title} width={600} height={314} />
       <p>{props.description}</p>
     </div>
   );
